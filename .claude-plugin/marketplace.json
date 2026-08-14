@@ -4,24 +4,24 @@
     "name": "Chris Baron",
     "email": "baron@3dl.dev"
   },
-  "description": "Tested hoistables: install and run real apps. Each app is its own plugin, so a self-hosted one never collides.",
+  "description": "Tested hoistables: install and run real apps. Each app is its own plugin, and no framework verb is stamped on anyone's product.",
   "plugins": [
     {
       "name": "agent-dyno",
       "source": "./plugins/agent-dyno",
-      "description": "Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it.",
+      "description": "Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it.",
       "version": "0.5.0"
     },
     {
       "name": "honcho",
       "source": "./plugins/honcho",
-      "description": "Set up and run honcho on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it.",
+      "description": "Set up and run honcho on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it.",
       "version": "0.5.0"
     },
     {
       "name": "hoistable",
       "source": "./plugins/hoistable",
-      "description": "Set up and run hoistable on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it.",
+      "description": "Set up and run hoistable on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it.",
       "version": "0.5.0"
     }
   ]

@@ -9,8 +9,6 @@ A tap of tested install skills for real apps. Add the tap, install an app, and a
 
 Then in your agent:
 
-    /agent-dyno:hoist
+    /agent-dyno:deploy
 
-Same shape for the others: `/honcho:hoist`, `/hoistable:hoist` (which stands the Hoistable framework up on your machine).
-
-Each app is its own plugin, so nothing collides, and anyone can self-host their own app the same way from their own repo without listing here. The tools that build and run these live in [3dl-dev/hoistable](https://github.com/3dl-dev/hoistable).
+Same shape for the others: `/honcho:deploy`, `/hoistable:deploy`. Each app is its own plugin named after the app, so nothing collides and no framework branding lands on anyone's product. The tools that build and run these live in [3dl-dev/hoistable](https://github.com/3dl-dev/hoistable).
