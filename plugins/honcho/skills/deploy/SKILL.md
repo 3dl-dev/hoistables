@@ -134,7 +134,7 @@ you measured.
       ],
       "isolation": {
         "require": "environmental",
-        "why": "honcho is an external app we have never hoisted; a fresh clone is not a clean target. Run it where a deploy cannot reach host state, whatever its compose declares (fixed project name, loopback ports, named volumes)."
+        "why": "honcho is an external app we have never packaged; a fresh clone is not a clean target. Run it where a deploy cannot reach host state, whatever its compose declares (fixed project name, loopback ports, named volumes)."
       },
       "preflight": [
         {
@@ -157,11 +157,11 @@ you measured.
 - `docker` (required), probe: `docker version --format '{{.Server.Version}}'`
 - isolation substrate (required): a rung of at least `environmental` strength must resolve on the target, or this is cannot-build.
 
-## Checks (invariants every hoist obeys)
+## Checks (invariants every deploy obeys)
 
-- **Non-destructive onboarding.** The hoist lands in a runner-owned isolated namespace (its own name, ports, storage); a deploying profile that declares no isolation is refused; teardown always runs. You never re-run honcho's own singular deployment onto a live host.
-- **No silent success.** honcho is graded on the real target; a hoist that cannot say it worked says what did not transfer. A design never reads as a running system.
-- **Verified harness.** The operator kit is run only after its sha256 matches the carried pin; a tampered or unreachable kit is cannot-build, named.
+- **Non-destructive.** The deploy lands in a runner-owned isolated namespace (its own name, ports, storage); a profile that declares no isolation is refused; teardown always runs. It never re-runs honcho's own singular deployment onto a live host.
+- **No silent success.** honcho is graded on the real target; a run that cannot say it worked says what did not transfer. A design never reads as a running system.
+- **Verified runtime.** The fetched kit is run only after its sha256 matches the carried pin; a tampered or unreachable kit is cannot-build, named.
 
 ## Acceptance (the held-back transfer test; the honest score)
 

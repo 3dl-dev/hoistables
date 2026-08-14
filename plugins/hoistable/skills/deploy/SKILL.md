@@ -157,11 +157,11 @@ you measured.
 - `python3` (required), probe: `python3 --version`
 - isolation substrate: none required, this profile is hermetic (hermetic: runs the project's own tests in a throwaway clone; starts no daemons, binds no host ports, writes no shared state).
 
-## Checks (invariants every hoist obeys)
+## Checks (invariants every deploy obeys)
 
-- **Non-destructive onboarding.** The hoist lands in a runner-owned isolated namespace (its own name, ports, storage); a deploying profile that declares no isolation is refused; teardown always runs. You never re-run hoistable's own singular deployment onto a live host.
-- **No silent success.** hoistable is graded on the real target; a hoist that cannot say it worked says what did not transfer. A design never reads as a running system.
-- **Verified harness.** The operator kit is run only after its sha256 matches the carried pin; a tampered or unreachable kit is cannot-build, named.
+- **Non-destructive.** The deploy lands in a runner-owned isolated namespace (its own name, ports, storage); a profile that declares no isolation is refused; teardown always runs. It never re-runs hoistable's own singular deployment onto a live host.
+- **No silent success.** hoistable is graded on the real target; a run that cannot say it worked says what did not transfer. A design never reads as a running system.
+- **Verified runtime.** The fetched kit is run only after its sha256 matches the carried pin; a tampered or unreachable kit is cannot-build, named.
 
 ## Acceptance (the held-back transfer test; the honest score)
 
