@@ -84,9 +84,9 @@ you measured.
   ],
   "default_profile": "minimal",
   "operators": {
-    "sha256": "93c02cedd7bd66a8afcfdd547fc95bb830fe6ce1699ca009917f8551b4200ad5",
-    "url": "https://github.com/3dl-dev/hoistable/releases/download/operators-v0.5.0/hoistable-operators-0.5.0.tgz",
-    "version": "0.5.0"
+    "sha256": "8b1c4b72964d190f65fac09d0ef31611fbab6e4ba5d2dd17b9de985028fb7225",
+    "url": "https://github.com/3dl-dev/hoistable/releases/download/operators-v0.7.0/hoistable-operators-0.7.0.tgz",
+    "version": "0.7.0"
   },
   "profiles": {
     "minimal": {

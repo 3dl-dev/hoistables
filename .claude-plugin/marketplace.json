@@ -16,13 +16,13 @@
       "name": "honcho",
       "source": "./plugins/honcho",
       "description": "Set up and run honcho on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it.",
-      "version": "0.5.0"
+      "version": "0.7.0"
     },
     {
       "name": "hoistable",
       "source": "./plugins/hoistable",
       "description": "Set up and run hoistable on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it.",
-      "version": "0.5.0"
+      "version": "0.7.0"
     }
   ]
 }
