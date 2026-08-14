@@ -1,6 +1,6 @@
 ---
 name: hoist
-description: Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it.
+description: "Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. It ships as a recipe, and on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it."
 ---
 
 # This skill hoists agent-dyno before it reports agent-dyno is up
