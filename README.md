@@ -11,4 +11,4 @@ These are deployment recipes, the way a Homebrew tap carries formulas. Naming an
 
 Then ask your agent to hoist agent-dyno. Same for `honcho@hoistables` and `hoistable@hoistables` (which stands the hoistable framework up on your target).
 
-The tools that make and run these — `/hoistable` (build one) and `/hoist` (run one) — live in [3dl-dev/hoistable](https://github.com/3dl-dev/hoistable).
+The tools that make and run these, `/hoistable` (build one) and `/hoist` (run one), live in [3dl-dev/hoistable](https://github.com/3dl-dev/hoistable).
