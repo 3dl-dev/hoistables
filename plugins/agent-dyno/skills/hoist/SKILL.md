@@ -1,6 +1,6 @@
 ---
-name: hoist-agent-dyno
-description: Hoist agent-dyno onto your target, on first use, self-extract the hoistable harness and clone, configure, deploy, and grade agent-dyno, reporting an honest transfer score. Agent-first; no commands.
+name: hoist
+description: Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it.
 ---
 
 # This skill hoists agent-dyno before it reports agent-dyno is up

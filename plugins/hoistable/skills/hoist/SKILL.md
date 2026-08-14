@@ -1,6 +1,6 @@
 ---
-name: hoist-hoistable
-description: Hoist hoistable onto your target, on first use, self-extract the hoistable harness and clone, configure, deploy, and grade hoistable, reporting an honest transfer score. Agent-first; no commands.
+name: hoist
+description: Set up and run hoistable on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it.
 ---
 
 # This skill hoists hoistable before it reports hoistable is up

@@ -1,6 +1,6 @@
 ---
-name: hoist-honcho
-description: Hoist honcho onto your target, on first use, self-extract the hoistable harness and clone, configure, deploy, and grade honcho, reporting an honest transfer score. Agent-first; no commands.
+name: hoist
+description: Set up and run honcho on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it.
 ---
 
 # This skill hoists honcho before it reports honcho is up

@@ -4,24 +4,24 @@
     "name": "Chris Baron",
     "email": "baron@3dl.dev"
   },
-  "description": "Tested hoistables \u2014 a tap of self-building hoist skills for real apps. Each pins the hoistable harness and hoists then grades its app on your target. Deployment recipes, like a Homebrew tap.",
+  "description": "Tested hoistables: install and run real apps. Each app is its own plugin, so a self-hosted one never collides.",
   "plugins": [
-    {
-      "name": "hoistable",
-      "source": "./plugins/hoistable",
-      "description": "Hoist hoistable itself onto your target: deploy the framework and run its own tests, graded.",
-      "version": "0.5.0"
-    },
     {
       "name": "agent-dyno",
       "source": "./plugins/agent-dyno",
-      "description": "Hoist agent-dyno (github.com/3dl-dev/agent-dyno) onto your target and self-grade it.",
+      "description": "Set up and run agent-dyno on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings agent-dyno up in a sandbox, and grades it.",
       "version": "0.5.0"
     },
     {
       "name": "honcho",
       "source": "./plugins/honcho",
-      "description": "Hoist honcho (github.com/plastic-labs/honcho) onto your target, graded. A deployment recipe; not affiliated with or endorsed by honcho's authors.",
+      "description": "Set up and run honcho on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it.",
+      "version": "0.5.0"
+    },
+    {
+      "name": "hoistable",
+      "source": "./plugins/hoistable",
+      "description": "Set up and run hoistable on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it.",
       "version": "0.5.0"
     }
   ]

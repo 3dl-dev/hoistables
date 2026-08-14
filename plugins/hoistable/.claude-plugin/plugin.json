@@ -1,4 +1,4 @@
 {
   "name": "hoistable",
-  "description": "Hoist hoistable itself onto your target: deploy the framework and run its own tests, graded."
+  "description": "Set up and run hoistable on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings hoistable up in a sandbox, and grades it."
 }

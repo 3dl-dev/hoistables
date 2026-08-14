@@ -1,4 +1,4 @@
 {
   "name": "honcho",
-  "description": "Hoist honcho (github.com/plastic-labs/honcho) onto your target, graded. A deployment recipe; not affiliated with or endorsed by honcho's authors."
+  "description": "Set up and run honcho on this machine, then self-test it and report honestly what worked. Ships as a recipe: on first use it fetches a verified toolchain, brings honcho up in a sandbox, and grades it."
 }
