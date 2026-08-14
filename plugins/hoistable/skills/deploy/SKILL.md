@@ -90,80 +90,9 @@ you measured.
   ],
   "default_profile": "default",
   "operators": {
-    "_authored_by": "hoist author (self-hosting reference: hoistable's own Layer 2 config)",
-    "app": "hoistable",
-    "binds": [
-      {
-        "name": "git",
-        "probe": "git --version",
-        "required": true
-      },
-      {
-        "name": "python3",
-        "probe": "python3 --version",
-        "required": true
-      }
-    ],
-    "default_profile": "default",
-    "operators": {
-      "sha256": "93c02cedd7bd66a8afcfdd547fc95bb830fe6ce1699ca009917f8551b4200ad5",
-      "url": "https://github.com/3dl-dev/hoistable/releases/download/operators-v0.5.0/hoistable-operators-0.5.0.tgz",
-      "version": "0.5.0"
-    },
-    "profiles": {
-      "default": {
-        "acceptance": [
-          {
-            "check": "python3 tests/test_author.py",
-            "name": "test_author"
-          },
-          {
-            "check": "python3 tests/test_cards.py",
-            "name": "test_cards"
-          },
-          {
-            "check": "python3 tests/test_envelope.py",
-            "name": "test_envelope"
-          },
-          {
-            "check": "python3 tests/test_hoist.py",
-            "name": "test_hoist"
-          },
-          {
-            "check": "python3 tests/test_petard.py",
-            "name": "test_petard"
-          },
-          {
-            "check": "python3 tests/test_translate.py",
-            "name": "test_translate"
-          },
-          {
-            "check": "python3 tests/test_builder.py",
-            "name": "test_builder"
-          }
-        ],
-        "bringup": [
-          {
-            "name": "no-build",
-            "run": "true"
-          }
-        ],
-        "health": [
-          {
-            "check": "test -e .",
-            "name": "clone-present"
-          }
-        ],
-        "isolation": {
-          "none": true,
-          "why": "hermetic: runs the project's own tests in a throwaway clone; starts no daemons, binds no host ports, writes no shared state"
-        }
-      }
-    },
-    "source": {
-      "clone": "https://github.com/3dl-dev/hoistable.git",
-      "dir": "hoistable"
-    }
+    "sha256": "93c02cedd7bd66a8afcfdd547fc95bb830fe6ce1699ca009917f8551b4200ad5",
+    "url": "https://github.com/3dl-dev/hoistable/releases/download/operators-v0.5.0/hoistable-operators-0.5.0.tgz",
+    "version": "0.5.0"
   },
   "profiles": {
     "default": {
