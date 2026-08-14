@@ -1,0 +1,4 @@
+{
+  "name": "agent-dyno",
+  "description": "Hoist agent-dyno (github.com/3dl-dev/agent-dyno) onto your target and self-grade it."
+}

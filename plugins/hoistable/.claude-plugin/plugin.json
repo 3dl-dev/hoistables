@@ -1,0 +1,4 @@
+{
+  "name": "hoistable",
+  "description": "Hoist hoistable itself onto your target: deploy the framework and run its own tests, graded."
+}

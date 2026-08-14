@@ -1,0 +1,28 @@
+{
+  "name": "hoistables",
+  "owner": {
+    "name": "Chris Baron",
+    "email": "baron@3dl.dev"
+  },
+  "description": "Tested hoistables \u2014 a tap of self-building hoist skills for real apps. Each pins the hoistable harness and hoists then grades its app on your target. Deployment recipes, like a Homebrew tap.",
+  "plugins": [
+    {
+      "name": "hoistable",
+      "source": "./plugins/hoistable",
+      "description": "Hoist hoistable itself onto your target: deploy the framework and run its own tests, graded.",
+      "version": "0.5.0"
+    },
+    {
+      "name": "agent-dyno",
+      "source": "./plugins/agent-dyno",
+      "description": "Hoist agent-dyno (github.com/3dl-dev/agent-dyno) onto your target and self-grade it.",
+      "version": "0.5.0"
+    },
+    {
+      "name": "honcho",
+      "source": "./plugins/honcho",
+      "description": "Hoist honcho (github.com/plastic-labs/honcho) onto your target, graded. A deployment recipe; not affiliated with or endorsed by honcho's authors.",
+      "version": "0.5.0"
+    }
+  ]
+}
